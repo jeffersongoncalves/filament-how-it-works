@@ -2,8 +2,10 @@
 
 namespace JeffersonGoncalves\FilamentHowItWorks\Resources\Steps;
 
-use Filament\Forms\Form;
+use BackedEnum;
 use Filament\Resources\Resource;
+use Filament\Schemas\Schema;
+use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
 use JeffersonGoncalves\FilamentHowItWorks\FilamentHowItWorksPlugin;
 use JeffersonGoncalves\FilamentHowItWorks\Resources\Steps\Pages\CreateStep;
@@ -19,7 +21,7 @@ class StepResource extends Resource
 {
     use Translatable;
 
-    protected static ?string $navigationIcon = 'heroicon-o-queue-list';
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedQueueList;
 
     protected static ?string $recordTitleAttribute = 'title';
 
@@ -47,9 +49,9 @@ class StepResource extends Resource
         return __('filament-how-it-works::how-it-works.item.plural_label');
     }
 
-    public static function form(Form $form): Form
+    public static function form(Schema $schema): Schema
     {
-        return StepForm::configure($form);
+        return StepForm::configure($schema);
     }
 
     public static function table(Table $table): Table

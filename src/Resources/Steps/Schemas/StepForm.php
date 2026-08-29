@@ -2,18 +2,19 @@
 
 namespace JeffersonGoncalves\FilamentHowItWorks\Resources\Steps\Schemas;
 
-use Filament\Forms\Components\Section;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
-use Filament\Forms\Form;
+use Filament\Schemas\Components\Section;
+use Filament\Schemas\Schema;
 
 class StepForm
 {
-    public static function configure(Form $form): Form
+    public static function configure(Schema $schema): Schema
     {
-        return $form
-            ->schema([
+        return $schema
+            ->columns(null)
+            ->components([
                 Section::make(__('filament-how-it-works::how-it-works.item.label'))
                     ->schema([
                         TextInput::make('icon')
