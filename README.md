@@ -14,7 +14,7 @@
 
 Filament admin UI (CRUD) for [`jeffersongoncalves/laravel-how-it-works`](https://github.com/jeffersongoncalves/laravel-how-it-works) — manage "how it works" steps, with translatable title/description fields, inside a [Filament](https://filamentphp.com) panel.
 
-> **Known issue:** `jeffersongoncalves/laravel-how-it-works` 1.0.0 currently requires `illuminate/*: ^12.0|^13.0`, which has no overlap with Filament v3's Laravel ^10.0 requirement. This branch's code targets the Filament v3 API, but `composer install` cannot resolve until `laravel-how-it-works` widens its Laravel constraint (or ships a v10/v11-compatible release). Track this before using `1.x` in production.
+> **Note (1.x):** pinned to Laravel 12.x. Filament v3.3.55 declares Laravel 13 support in its `composer.json`, but breaks at runtime against it (`$getRecordActions` undefined in table views, `SubNavigationPosition::$value` undefined) — an upstream Filament v3 issue, not something fixable here.
 
 ## Compatibility
 
