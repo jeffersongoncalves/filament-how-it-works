@@ -1,14 +1,14 @@
 <div class="filament-hidden">
 
-![Filament How It Works](https://raw.githubusercontent.com/jeffersongoncalves/filament-how-it-works/2.x/art/jeffersongoncalves-filament-how-it-works.png)
+![Filament How It Works](https://raw.githubusercontent.com/jeffersongoncalves/filament-how-it-works/3.x/art/jeffersongoncalves-filament-how-it-works.png)
 
 </div>
 
 # Filament How It Works
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-how-it-works.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-how-it-works)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-how-it-works/tests.yml?branch=2.x&label=tests&style=flat-square)](https://github.com/jeffersongoncalves/filament-how-it-works/actions?query=workflow%3Atests+branch%3A2.x)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-how-it-works/pint.yml?branch=2.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-how-it-works/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A2.x)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-how-it-works/tests.yml?branch=3.x&label=tests&style=flat-square)](https://github.com/jeffersongoncalves/filament-how-it-works/actions?query=workflow%3Atests+branch%3A3.x)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-how-it-works/pint.yml?branch=3.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-how-it-works/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A3.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-how-it-works.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-how-it-works)
 [![License](https://img.shields.io/packagist/l/jeffersongoncalves/filament-how-it-works.svg?style=flat-square)](LICENSE)
 
@@ -27,7 +27,7 @@ Filament admin UI (CRUD) for [`jeffersongoncalves/laravel-how-it-works`](https:/
 You can install the package via composer:
 
 ```bash
-composer require jeffersongoncalves/filament-how-it-works:"^2.0"
+composer require jeffersongoncalves/filament-how-it-works:"^3.0"
 ```
 
 Register the plugin in your panel provider:

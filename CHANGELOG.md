@@ -9,9 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- `FilamentHowItWorksPlugin` with `StepResource` for Filament v4.
+- `FilamentHowItWorksPlugin` with `StepResource` for Filament v5.
 - Translatable `title`/`description` fields via `jeffersongoncalves/filament-translatable`.
 - Drag-to-reorder support on the Steps table (`order` column).
 - Config-based resource override (`filament-how-it-works.resources.step`) and navigation group.
 
-[Unreleased]: https://github.com/jeffersongoncalves/filament-how-it-works/commits/2.x
+[Unreleased]: https://github.com/jeffersongoncalves/filament-how-it-works/commits/3.x
